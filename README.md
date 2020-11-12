@@ -44,7 +44,7 @@ I needed to clean it up so that it was usable for our model. I made the followin
 
 # EDA
 
-
+![alt text](https://github.com/rishabdhar12/Flight-Price-Prediction/blob/main/Images/airline.png)
 
 
 
