@@ -84,9 +84,9 @@ USing hyperparameter tuning on GradientBoostingRegressor further increased the a
 # Model Accuracy
 
 GradientBoostingRegressor : 
-MAE: 959.8979539240587
-MSE: 2705023.0432436923
-RMSE: 1644.6954256772565
+* MAE: 959.8979539240587
+* MSE: 2705023.0432436923
+* RMSE: 1644.6954256772565
 
 
 # Productionization
