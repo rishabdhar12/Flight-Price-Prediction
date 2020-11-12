@@ -33,3 +33,48 @@ Flight ticket prices can be something hard to guess, today we might see a price,
 * Total_Stops: Total stops between the source and destination.
 * Additional_Info: Additional information about the flight
 * Price: The price of the ticket
+
+# Cleaning the Data
+I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+
+* Made Columns for Day and Month out of Date of Journey
+* Calculated the total flight duration
+* Removed the null values
+* Removed the outliers
+
+# EDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
