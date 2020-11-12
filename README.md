@@ -76,8 +76,22 @@ Different models I tried:
 
 XGBRegressor, RandomForestRegressor and GradientBoostingRegressor gave the lowest RMSE so I chose these model and performed hyper parameter tuning
 
+![alt text](https://github.com/rishabdhar12/Flight-Price-Prediction/blob/main/Images/hyperparameter.png)
 
 
+USing hyperparameter tuning on GradientBoostingRegressor further increased the accuracy.
+
+# Model Accuracy
+
+GradientBoostingRegressor : 
+MAE: 959.8979539240587
+MSE: 2705023.0432436923
+RMSE: 1644.6954256772565
+
+
+# Productionization
+
+In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a flight and returns an estimated price.
 
 
 
