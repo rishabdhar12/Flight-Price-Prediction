@@ -51,6 +51,32 @@ I needed to clean it up so that it was usable for our model. I made the followin
 ![alt text](https://github.com/rishabdhar12/Flight-Price-Prediction/blob/main/Images/month.png)
 
 
+# Model Building
+
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 30%.
+
+I tried forteen different models and evaluated them using Root Mean Squared Error. I chose RMSE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
+
+Different models I tried:
+
+* LinearRegression :  2779.0455708889144
+* ElasticNet : 3379.6819876610443
+* Lasso :  2759.449381312224
+* Ridge :  2710.8476127741037
+* KNeighborsRegressor :  3249.005561971264
+* DecisionTreeRegressor :  2017.530360334335
+* RandomForestRegressor :  1662.7359733973055
+* SVR :  4246.460099935076
+* AdaBoostRegressor :  3135.985374101527
+* GradientBoostingRegressor :  1904.7364927923986
+* ExtraTreeRegressor :  2432.1393735590073
+* HuberRegressor :  3108.870789540331
+* XGBRegressor :  1603.7426369307445
+* BayesianRidge :  2773.275561516677
+
+XGBRegressor, RandomForestRegressor and GradientBoostingRegressor gave the lowest RMSE so I chose these model and performed hyper parameter tuning
+
+
 
 
 
